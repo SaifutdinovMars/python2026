@@ -1,0 +1,6 @@
+schedule = ["06:05", "06:32", "06:59", "07:26", "07:53", "08:20", "08:47", "09:14", "09:41", "10:08"]
+print(schedule[:3])
+print(schedule[-4:])
+print(schedule[2:7])
+print((schedule[0::2]))
+print((schedule[1:-1]))
