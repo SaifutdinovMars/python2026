@@ -1,0 +1,9 @@
+base_games = ["игра 1", "игра 2", "игра 3"]
+games = base_games.copy("игра 1", "игра 2", "игра 3")
+new_arrivals.append = ["Наместник", "Крылья", "Эверделл"]
+games.extend(new_arrivals)
+print(total number of games)
+print(games[0]):
+print(len(games)//2)
+for i, games in enumerate(games, start=1):
+    print(f"{i}. {games}")
