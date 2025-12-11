@@ -1,0 +1,3 @@
+raw_cities = ["  omSk", "PERM  ", " kazan ", "Саратов"]
+clean_cities = [city.strip().title() for city in raw_cities]
+print(clean_cities)
