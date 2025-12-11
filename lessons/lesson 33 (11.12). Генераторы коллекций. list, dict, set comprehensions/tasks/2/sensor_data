@@ -1,0 +1,10 @@
+sensor_data = [
+    (1, 75),
+    (2, 88),
+    (3, 95),
+    (4, 40)
+]
+alerts > 80
+for() in sensor_data if 
+if value > 80
+print(f "sensor_data" {sensor_id}: {value})"" ).
