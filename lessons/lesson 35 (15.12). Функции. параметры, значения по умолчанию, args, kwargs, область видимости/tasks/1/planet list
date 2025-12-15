@@ -1,0 +1,6 @@
+planet_list = ["Марс", "Венера", "Земля"]
+def_ add_planet = planet_list + new_planet
+new_planet.append()
+planet_list.pop
+add_new_planet = planet_list
+print(planet_list)
