@@ -1,0 +1,20 @@
+temperatures = [-3, 0, 4, -6, 7, 10, 2]
+result = [f"день {i+1}: {'+' if t > 0 else ''}{t}°c" for i, t in enumerate(temperatures) if t > -2]  
+print(result)  
+
+orders = [("Анна", 32000, "Казань"), ("Игорь", 61000, "Тюмень"), ...]
+result = []
+for name, amount, city in orders:
+    if city.startswith("К"):
+        result.append(f"{name} купил(а) на {amount}")
+
+print(result)
+    result = []
+for name, amount, city in orders:
+    if amount >= 50000:
+        formatted_amount = f"{amount}K"
+    else:
+        formatted_amount = f"{amount}₽"
+    result.append(f"{name} купил(а) на {formatted_amount}")
+
+print(result)
