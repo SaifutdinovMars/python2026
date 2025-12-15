@@ -1,0 +1,10 @@
+operations = [
+ ("user1", +1000),
+ ("user2", +500),
+ ("user1", -300),
+ ("user3", +200),
+]
+closed = ["user2", "ghost"]
+for user_id in closed:  
+    balances.pop(user_id, 0)  # 0 - значение по умолчанию, если ключа нет  
+print("Итоговый словарь балансов:", balances)  
