@@ -1,0 +1,17 @@
+views = [("sci-fi", 40), ("drama", 15), ("sci-fi", 20), ("comedy", 5)]  
+limit = 30  
+ 
+minutes_by_genre = {}  
+  
+for genre, minutes in views:  
+    if genre in minutes_by_genre:  
+        minutes_by_genre[genre] += minutes  
+    else:  
+        minutes_by_genre[genre] = minutes  
+
+filtered_genres = {genre: minutes for genre, minutes in minutes_by_genre.items() if minutes >= limit}  
+  
+print("Полный словарь по жанрам:")  
+print(minutes_by_genre)  
+print("\nОтфильтрованный словарь (>= {} минут):".format(limit))  
+print(filtered_genres)  
