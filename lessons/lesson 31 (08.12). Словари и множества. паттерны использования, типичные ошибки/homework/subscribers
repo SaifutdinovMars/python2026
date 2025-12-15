@@ -1,0 +1,12 @@
+subscribers = {"a@example.com", "b@example.com", "c@example.com"}
+webinar = {"b@example.com", "d@example.com"}
+both_participants = subscribers.intersection(webinar)  
+  
+only_webinar = webinar.difference(subscribers)  
+print("Пользователи, которые и подписаны, и были на вебинаре:")  
+for email in both_participants:  
+    print(f"- {email}")  
+  
+print("\nПользователи, которые были только на вебинаре:")  
+for email in only_webinar:  
+    print(f"- {email}")  
