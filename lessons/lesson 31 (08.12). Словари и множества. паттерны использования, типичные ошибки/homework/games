@@ -1,0 +1,17 @@
+games = [
+ ("Ведьмак", 1299),
+ ("Minecraft", 999),
+ ("Stardew", 699),
+]
+request = ["Minecraft", "Cyberpunk"]
+prices = {  
+    'Ведьмак", 1299,  
+    'Minecraft", 999,  
+    'Stardew", 699,  
+    }
+    request = [  
+    "Minecraft", "Cyberpunk" 
+]  
+
+    price = prices.get(game, "нет в продаже")  
+    print(f"{game} -> {price}")   
