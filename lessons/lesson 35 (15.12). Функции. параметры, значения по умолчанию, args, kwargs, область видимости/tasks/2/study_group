@@ -1,0 +1,4 @@
+study_group = []
+updated_group = add_student(study_group, "Анна", 101)
+add_student(group, name, student_id, grades, is_active)
+print(updated_group)
