@@ -1,0 +1,6 @@
+def add_note(note,notes_list=None):
+if notes_list is None:  
+        notes_list =   
+        notes_list.append(note)  
+        notes_list.append(note)  
+        return notes_list  
