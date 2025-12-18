@@ -1,0 +1,9 @@
+def calculate_delivery(city, weight_kg, urgent=False):
+calculate_delivery("Москва", 5) → 400
+calculate_delivery("Казань", 2, urgent=True) → 560
+calculate_delivery(weight=1, city="Сочи") → 320
+if urgent:  
+        cost = 500 + 30 * weight_kg  
+    else:  
+        cost = 300 + 20 * weight_kg  
+    return cost  
