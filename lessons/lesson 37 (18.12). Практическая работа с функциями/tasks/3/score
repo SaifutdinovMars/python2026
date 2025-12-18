@@ -1,0 +1,3 @@
+def push_score(score, scores=None):
+scores.append(score)  
+return scores  
